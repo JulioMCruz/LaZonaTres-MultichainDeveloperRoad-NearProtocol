@@ -1,0 +1,5 @@
+tasks:
+  - name: Install near-cLi
+    init: npm install -g near-cli
+  - name: Install Packages
+    init: npm install
