@@ -1,6 +1,6 @@
 # LaZonaTres-MultichainDeveloperRoad-NearProtocol
 
-Verified if near-cli is already installed:
+Check if near-cli is already installed:
 
 ```bash
 near --version
@@ -45,18 +45,35 @@ OR
 
 ### Option 2
 
-Set your developer account (EX I will use my testnet account):
+Set your developer account (Ex. I will use my testnet account):
 
 ```bash
-NEAR_ACCOUNT= juliomcruz.testnet
+NEAR_DEPLOYER_ACCOUNT= juliomcruz.testnet
 ```
 
 Deploy the smart contract using the developer account
 
 ```bash
-near deploy --accountId $NEAR_ACCOUNT --wasmFile build/contract.wasm
+near deploy --accountId $NEAR_DEPLOYER_ACCOUNT --wasmFile build/contract.wasm
 ```
 
+## Test the contract
 
+Set the enviroment variables.
+
+```bash
+NEAR_DEPLOYER_ACCOUNT= juliomcruz.testnet
+NEAR_CALLER_ACCOUNT= juliomcruz.testnet
+```
+
+Call get_repository
+
+```bash
+near call $NEAR_DEPLOYER_ACCOUNT  get_repository --accountId $NEAR_CALLER_ACCOUNT --amount 1
+```
+
+```bash
+near call $NEAR_DEPLOYER_ACCOUNT get_requesters --accountId $NEAR_CALLER_ACCOUNT 
+```
 
 
