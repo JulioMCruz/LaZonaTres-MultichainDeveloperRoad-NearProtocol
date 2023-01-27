@@ -1,4 +1,4 @@
-# LaZonaTres-MultichainDeveloperRoad-NearProtocol
+# LaZonaTres - Multichain Developer Road (Near Protocol)
 
 Check if near-cli is already installed:
 
@@ -35,15 +35,14 @@ npm run build
 
 ## Deploy the contract
 
-### Option 1
+### - Option 1
 
 ```bash
 npm run deploy
 ```
+ This commmand will generate the file build/contract.wasm.
 
-OR
-
-### Option 2
+### - Option 2
 
 Set your developer account (Ex. I will use my testnet account):
 
