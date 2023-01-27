@@ -47,7 +47,7 @@ npm run deploy
 Set your developer account (Ex. I will use my testnet account):
 
 ```bash
-NEAR_DEPLOYER_ACCOUNT= juliomcruz.testnet
+NEAR_DEPLOYER_ACCOUNT=juliomcruz.testnet
 ```
 
 Deploy the smart contract using the developer account
