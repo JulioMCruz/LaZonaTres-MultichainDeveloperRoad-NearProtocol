@@ -1,4 +1,4 @@
-# LaZonaTres - Multichain Developer Road (Near Protocol)
+# La Zona Tres - Multichain Developer Road (Near Protocol)
 
 Check if near-cli is already installed:
 
