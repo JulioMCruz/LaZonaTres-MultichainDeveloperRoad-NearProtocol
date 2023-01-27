@@ -61,8 +61,8 @@ near deploy --accountId $NEAR_DEPLOYER_ACCOUNT --wasmFile build/contract.wasm
 Set the enviroment variables.
 
 ```bash
-NEAR_DEPLOYER_ACCOUNT= juliomcruz.testnet
-NEAR_CALLER_ACCOUNT= juliomcruz.testnet
+NEAR_DEPLOYER_ACCOUNT=juliomcruz.testnet
+NEAR_CALLER_ACCOUNT=juliomcruz.testnet
 ```
 
 Call get_repository
